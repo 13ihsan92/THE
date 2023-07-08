@@ -6,9 +6,26 @@ This tool is used to download TAKE HOME EXAM questions and download existing ans
 ## 1. BASH
 To download questions, use:
 
-`bash download-naskah-the.sh MATKUL-code`
-
+```bash
+bash download-naskah-the.sh MATKUL-code
+```
 
 Example:
 
+```bash
 bash download-naskah-the.sh EKMA4116
+```
+
+## 2. PYTHON
+To download questions, use:
+
+```python
+python3 download-naskah-the.py MATKUL-code
+```
+
+Example:
+
+```python
+python3 download-naskah-the.py EKMA4116
+```
+
