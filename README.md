@@ -57,4 +57,5 @@ python3 jawaban-the.py EKMA4116
 ```
 
 > **_NOTE: Once again, please adjust the variable range of the NIM and the MATTLE code!!!_**
+
 > **_CHEATSHEET: find . -type f -type f \( -iname "**.sh" -o -iname "**.py" \) -exec awk 'tolower($0) ~ /utcdn/ {print FILENAME}' {} \; -exec sed -i 's/utcdn/utthecdn/' {} \; _** 
