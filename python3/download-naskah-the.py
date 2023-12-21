@@ -11,7 +11,7 @@ if len(sys.argv) < 2:
 kode = sys.argv[1]
 
 # Membentuk URL dengan menggunakan kode
-url = f"https://utcdn.azureedge.net/exams/Naskah_{kode}_the_1.pdf"
+url = f"https://utthecdn.azureedge.net/exams/Naskah_{kode}_the_1.pdf"
 
 # Direktori tujuan
 destination = f"soal/{kode}/"

@@ -24,7 +24,7 @@ for num in range(43000000, 46000000):
     formatted_num = str(num).zfill(9)
 
     # Membentuk URL dengan menggunakan range angka dan kode
-    url = f"https://utcdn.azureedge.net/{formatted_num}/{formatted_num}_{kode}.pdf"
+    url = f"https://utthecdn.azureedge.net/{formatted_num}/{formatted_num}_{kode}.pdf"
 
     # Memeriksa apakah file tersedia di URL
     response = requests.head(url)

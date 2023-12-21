@@ -19,7 +19,7 @@ do
   formatted_num=$(printf "%09d" $num)
 
   # Membentuk URL dengan menggunakan range angka dan kode
-  url="https://utcdn.azureedge.net/${formatted_num}/${formatted_num}_${kode}.pdf"
+  url="https://utthecdn.azureedge.net/${formatted_num}/${formatted_num}_${kode}.pdf"
 
   # Memeriksa apakah file tersedia di URL
   response=$(curl --head --silent --output /dev/null --write-out "%{http_code}" "$url")
